@@ -1,0 +1,259 @@
+body.apropos {
+  // General for body a propos page
+  font-family: "Open Sans";
+  width:100%;
+  .white-font{
+    color:white;
+  }
+  main{
+    overflow-y: auto !important;
+  }
+  hr{
+    border-top: 1px solid rgb(35, 33, 33);
+  }
+  h1{
+    font-size: 26px;
+    color: #000000;
+    padding-top:30px;
+    font-family:"open_sanssemibold";
+    position: relative;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left:80px;
+  }
+  .banner {
+    margin: 0 auto;
+    //max-width: 1240px;
+  }
+  .center-txt{
+    text-align: center;
+    line-height:20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .page-header{
+    font-family: "open_sansbold";
+    max-width: 1200px;
+    margin: 0 auto !important;
+    float: none !important;
+    padding-top: 52px;
+    padding-bottom: 32px;
+    border-bottom: 0px;
+  }
+  /// main container width
+  .wpb_wrapper{
+    width:100%;
+    max-width: 1085px;
+    margin: 0 auto !important;
+    float: none !important;
+  }
+
+  // nos mission entre 2 lignes
+  .ha {
+    display: inline-block;
+    position: relative;
+  }
+  .ha:after,
+  .ha:before {
+    content: "";
+    position:absolute;
+    height: 1px;
+    width: 30%;
+    top: 50%;
+    right: 120%;
+    background: #c9c9c9;
+  }
+  .ha:after {
+    left: 120%;
+  }
+
+
+
+
+  .propos-text{
+    font-size: 16px;
+    color:#4e4e4e;
+    position: relative;
+    top: 20px;
+    font-family: "open_sanssemibold";
+  }
+  // evenement
+  .propos-eve-titre{
+    font-family: "open_sansbold";
+    font-size: 20px;
+    color:#000000;
+    padding-bottom: 15px;
+  }
+  .propos-eve-text{
+    font-family:"open_sanssemibold";
+    font-size: 16px;
+    color:#4e4e4e;
+    padding-top: 20px;
+  }
+  //text+image
+  .propos-text2{
+    font-size: 16px;
+    color:#4e4e4e;
+    font-family: "open_sanssemibold";
+  }
+  //notre mission
+  .notre-mission{
+    font-size: 31px;
+    font-family: "open_sanssemibold";
+    color:#000000;
+  }
+  .notre-mission-txt{
+    font-size:22px;
+    color:#4e4e4e;
+    font-family:"open_sansregular";
+  }
+  //nos valeurs
+  .nos-valeurs{
+    font-size: 31px;
+    font-family: "open_sanssemibold";
+    color:#ffffff;
+    position: relative;
+    top:20px;
+  }
+
+  .nos-valeurs-title{
+    width: 85%;
+    font-size: 29px;
+    font-family: "open_sanssemibold";
+    color:#ffffff;
+  }
+  .nos-val-text{
+    width: 70%;
+    font-family:"open_sanslight";
+    font-size: 17.1px;
+  }
+  // --- nos valeur ---
+  .hav {
+    display: inline-block;
+    position: relative;
+  }
+  .hav:after,
+  .hav:before {
+    content: "";
+    position:absolute;
+    height: 1px;
+    width: 35%;
+    top: 50%;
+    right: 130%;
+    background: #c9c9c9;
+  }
+  .hav:after {
+    left: 130%;}
+
+  .nos-valeur-padding {
+    position: relative;
+    left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  //padding rows
+  .padding-top-propos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  // -- Responsive -- Section
+  @media only screen and (min-width: 768px)and(max-width: 1120px){
+    .propos-text{
+      font-size: 1.5vw;
+      color:#4e4e4e;
+      position: relative;
+      top:0px;
+      font-family: "open_sanssemibold";
+
+    }
+    .propos-eve-titre{
+      font-family: "open_sansbold";
+      font-size: 1.8vw;
+      color:#000000;
+      padding-bottom: 15px;
+    }
+    .propos-eve-text{
+      font-family: "open_sanssemibold";
+      font-size: 1.5vw;
+      color:#4e4e4e;
+    }
+    .propos-text2{
+      font-size: 1.5vw;
+      color:#4e4e4e;
+      font-family: "open_sanssemibold";
+    }
+    .notre-mission{
+      font-size: 3vw;
+      font-family: "open_sanssemibold";
+      color:#000000;
+    }
+    .notre-mission-txt{
+      font-size:1.8vw;
+      color:#4e4e4e;
+      font-family:"open_sansregular";
+    }
+    .nos-valeurs{
+      font-size: 3vw;
+      font-family: "open_sanssemibold";
+      color:#ffffff;
+      position: relative;
+    }
+    .nos-valeurs-title{
+      width: 75%;
+      font-size: 2.5vw;
+      font-family: "open_sanssemibold";
+      color:#ffffff;
+    }
+    .nos-val-text{
+      width: 70%;
+      font-family: open_sansregular;
+      font-size: 1.5vw;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .propos-text{
+      font-size: 2.5vw;
+      color:#4e4e4e;
+      position: relative;
+      top: 20px;
+      font-family: "open_sanssemibold";
+    }
+    .propos-text2{
+      font-size: 2.5vw;
+      color:#4e4e4e;
+      font-family: "open_sanssemibold";
+    }
+    .nos-val-text{
+      width: 70%;
+      font-family: open_sansregular;
+      font-size: 2.5vw;
+    }
+    .nos-valeurs-title{
+      width: 75%;
+      font-size: 4vw;
+      font-family: "open_sanssemibold";
+      color:#ffffff;
+    }
+    .propos-eve-titre{
+      font-family: "open_sansbold";
+      font-size: 2.8vw;
+      color:#000000;
+      padding-bottom: 15px;
+    }
+    .propos-eve-text{
+      font-family: "open_sanssemibold";
+      font-size: 2.5vw;
+      color:#4e4e4e;
+    }
+    .notre-mission{
+      font-size: 4vw;
+      font-family: "open_sanssemibold";
+      color:#000000;
+    }
+    .notre-mission-txt{
+      font-size:2.8vw;
+      color:#4e4e4e;
+      font-family:"open_sansregular";
+    }
+  }
+}

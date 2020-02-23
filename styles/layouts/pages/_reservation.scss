@@ -1,0 +1,60 @@
+body.reservation, body.confirmation-reservation{
+  .devisform{
+    background-color: #f7f7f7 !important;
+  }
+  .wpcf7 #wpcf7-f1314-o1{
+    padding-left: 150px;
+  }
+  .logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .brillance{
+    display: none;
+  }
+  .logo-reservation{
+    padding-top: 40px;
+    //padding-bottom: 100px;
+    text-align: center;
+
+  }
+.formulaire{
+  background-color: #ffffff;
+  margin-top: 60px;
+  border-radius: 25px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+
+ main{
+  overflow: scroll !important;
+}
+  .logo-reservation{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 50px;
+  }
+  .intro{
+    text-align: center;
+    //padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+  }
+  .intro-confirmation{
+    text-align: center;
+    //padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    margin-top: 15vh;
+  }
+  .logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .ui-datepicker-title select{
+    color:#000 !important;
+  }
+}

@@ -1,0 +1,788 @@
+body.front-page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+
+}
+
+.forum-menu #home-icon {
+  position: absolute;
+  top: 20px;
+  left:30%;
+}
+
+.forum-menu ul li, .forum-menu #home-icon {
+  list-style: none;
+  float: left;
+  font-size: 19px;
+  text-decoration: none;
+}
+#qtranslate-3-chooser > li.language-chooser-item.language-chooser-item-Fr{
+  margin-right: 10px !important;
+}
+#menu-header-menu{
+  padding-left: 0 !important;
+}
+.menu-header-menu ul li:nth-child(1){
+  margin-right: 35px;
+}
+.menu ul li:nth-child(1) a:link, .menu ul li:nth-child(1) a:visited {
+  color: #ffffff;
+  margin-right: 30px;
+  margin-left: -43px;
+
+}
+.menu-header-menu-container{
+  margin: 0 auto;
+}
+.language-widgets {
+  margin-top: 17px;
+  font-size: 19.1px;
+  list-style:none;
+  font-family: 'open_sansregular';
+  color: #000000;
+  margin-left:-15%;
+
+}
+.language-widgets ul li a{
+
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.language-widgets ul li a:not(active) {
+  color: #000;
+  //text-decoration: none !important;
+}
+.language-widgets ul li a:hover, .language-widgets ul li a:visited, .language-widgets ul li a:active{
+  text-decoration: underline;
+}
+
+.menu{
+  position: relative;
+  width:100%;
+}
+.forum-menu {
+  display: inline-flex;
+  position: absolute;
+  z-index: 10;
+  font-family:'open_sansregular';
+  //left:38%;
+  width:100% !important;
+}
+.evenement-particulier, .evenement-entreprise {
+  position: absolute;
+  font-family: 'open_sansregular';
+  font-size: 14px;
+  line-height: 2.6;
+  top: 86%;
+
+}
+.evenement-entreprise{
+  left: 36%;
+}
+.evenement-particulier{
+  left: 44%;
+  letter-spacing: 3.5px;
+}
+.decouvrez{
+  border-bottom: 1px solid #e94d69;
+  text-align: center;
+  //border-bottom-color: ;
+
+}
+.decouvrez-entreprise{
+  border-bottom: 1px solid #0098db;
+}
+
+.subdomain-name-particulier {
+  position: absolute;
+  top: 78%;
+  font-size: 30px;
+  font-family: 'open_sanssemibold';
+  color: black;
+  //border-top: 1px solid;
+
+}
+.subdomain-name-particulier {
+  left: 44%;
+  text-align: end;
+  //border-top-color: #e94d69;
+  //padding-left: 60px;
+}
+.subdomain-name-entreprise {
+  position: absolute;
+  top: 77%;
+  font-size: 30px;
+  font-family: 'open_sanssemibold';
+  color: #ffffff;
+  //border-top: 1px solid;
+  //border-top-color: #0098db;
+  float: right;
+  left: 36%;
+}
+.evenement-entreprise{
+  color:#fff;
+}
+.evenement-particulier{
+  color: #000;
+}
+.centered-menu{
+  margin:0 auto;
+}
+img.ri{
+  width:40%;
+}
+.language-widgets ul li a:nth-child(2){
+  color: #ffffff;
+}
+.content, main {
+  width: 100%;
+  height: 100vh;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+.main-homepage {
+  width: 100vw;
+  height: 100vh;
+  display: inline-flex;
+  overflow: hidden !important;
+
+}
+.qtranxs_widget ul li{
+  margin-left: 0px !important;
+  font-weight: bold;
+}
+.qtranxs_widget ul li.active{
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+#particulier-zoom {
+  width: 50vw !important;
+  background: url('images/img1.jpg');
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+#particulier-zoom:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background: url('images/img1.jpg') no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  //transition: transform 5.5s ease-in;
+  z-index: -1;
+}
+#entreprise-zoom {
+  width: 50vw !important;
+  background: url('images/img2.jpg');
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+
+}
+#entreprise-zoom:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background: url('images/img2.jpg') no-repeat;
+  background-position: 100%;
+  background-size: cover;
+
+  z-index: -1;
+}
+#particulier-zoom:hover:before, #entreprise-zoom:hover:before {
+  transform: scale(1.2);
+  transition: transform 10s ease-in;
+}
+.menu{
+  display: inline-flex;
+}
+.menu-header-menu-container{
+  margin-top: 17px;
+}
+.forum-menu{
+  margin-top: 15px;
+  height: 37px;
+  width:100% !important;
+}
+// SECTION TEXT PARTICULIER ET ENTREPRISE LE FORUM
+@media only screen and (max-width: 668px){
+  .language-widgets{
+    margin-left: -24%;
+    display: inline-table;
+    margin-top: 12px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1370px) {
+  .subdomain-name-particulier{
+    top: 78% !important;
+    font-size: 27px !important;
+  }
+  .subdomain-name-particulier {
+    left: 35% !important;
+  }
+  .subdomain-name-entreprise {
+    top: 77% !important;
+    left: 35% !important;
+  }
+  .evenement-particulier {
+    top: 90%!important;
+    left: 35%!important;
+    letter-spacing: 2.5px;
+  }
+  .evenement-entreprise {
+    top: 89.5%;
+    left: 35%!important;
+    letter-spacing: 2.5px;
+  }
+}
+//MOBILE SECTION
+@media only screen and (max-width: 766px)
+{
+  //SECTION MENU
+  .forum-menu ul li a{
+    text-decoration: none !important;
+    padding: 5px !important;
+    font-size: 12px !important;
+    margin: 0  !important;
+    display: block !important;
+    color:#000 !important;
+
+  }
+
+  .forum-menu {
+    display: inline-flex;
+    position: absolute;
+    z-index: 10;
+    margin-left: 0% !important;
+    font-family:'open_sanssemibold';
+
+  }
+
+  //SECTION logo centered
+  img.ri
+  {
+    z-index: 10;
+    position: absolute;
+    top: -10%;
+    max-width: 100%;
+    width:55%;
+  }
+  img.ri:empty
+  {
+    //top: 50% !important;
+    left: 50%;
+    width:40%;
+    -webkit-transform: translate(-20%, -20%);
+    -moz-transform: translate(-20%, -20%);
+    -ms-transform: translate(-20%, -20%);
+    -o-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+  }
+
+  //END section LOGO
+
+  #particulier-zoom {
+    width: 100% !important;
+    height: 100vh !important;
+    background: url('images/img1.jpg');
+    background-size: cover !important;
+    overflow: hidden !important;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+
+  }
+  #particulier-zoom:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background: url('images/img1.jpg') no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    //transition: transform 5.5s ease-in;
+    z-index: -1;
+  }
+  #entreprise-zoom {
+    width: 100% !important;
+    height: 50vh !important;
+    background: url('images/img2.jpg');
+    background-size: cover !important;
+    overflow: hidden !important;
+    background-position: center center;
+    position: absolute;
+    top:50vh;
+    z-index: 1;
+
+  }
+  #entreprise-zoom:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background: url('images/img2.jpg') no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    //transition: transform 5.5s ease-in;
+    z-index: -1;
+  }
+  #particulier-zoom:hover:before, #entreprise-zoom:hover:before {
+    transform: scale(1.5);
+    transition: transform 10s ease-in;
+
+    .image-entreprises {
+      width: 100% !important;
+      height: 50vh !important;
+      background: url('images/img2.jpg');
+      background-size: cover !important;
+      overflow: hidden !important;
+      background-position: center center;
+      position: relative;
+      z-index: 2.6;
+    }
+
+    .image-entreprises:hover {
+      z-index: 0 !important;
+    }
+
+    @-webkit-keyframes animatedBackground {
+      0% {
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1)
+      }
+      100% {
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        -o-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1)
+      }
+
+    }
+
+    @-moz-keyframes animatedBackground {
+      0% {
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1)
+      }
+      100% {
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        -o-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1)
+      }
+
+    }
+    @keyframes animatedBackground {
+      0% {
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1)
+      }
+      100% {
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        -o-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1)
+      }
+
+    }
+
+
+  }
+
+  //text SECTION
+}
+
+
+
+//end of text section
+//END OF MOBILE SECTION
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  //SECTION MENU
+
+  //END OF SECTION MENU
+
+  .subdomain-name-particulier{
+    top: 78% !important;
+    font-size: 24px !important;
+
+  }
+
+  .subdomain-name-entreprise {
+    top: 78% !important;
+    font-size: 25px !important;
+    left: 23% !important;
+  }
+  .evenement-particulier {
+    top: 90% !important;
+    left: 44% !important;
+    font-size: 11.8px !important;
+    letter-spacing: 2.7px;
+  }
+  .evenement-entreprise {
+    top: 90%;
+    left: 23% !important;
+    font-family: 'open_sansregular';
+    font-size: 11.8px !important;
+  }
+}
+
+
+.image-entreprises {
+  width: 50vw !important;
+  background: url('images/img2.jpg');
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-position: center center;
+  position: relative;
+  z-index: 2.6;
+
+}
+
+
+.image-entreprises:hover {
+  z-index: 0 !important;
+}
+
+@-webkit-keyframes animatedBackground {
+  0% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1)
+  }
+  100% {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1)
+  }
+
+}
+
+@-moz-keyframes animatedBackground {
+  0% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1)
+  }
+  100% {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05,1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05)
+  }
+
+}
+@keyframes animatedBackground {
+  0% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1)
+  }
+  100% {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05,1.05);
+    transform: scale(1.05, 1.05)
+  }
+
+}
+// LOGO LE FORUM  SECTION
+
+.logo {
+  position: absolute;
+  top: 48%;
+  z-index: 10;
+  left:12%;
+}
+img.ri
+{
+  z-index: 10;
+  position: absolute;
+  top: 48%;
+  max-width: 100%;
+  width:40%;
+}
+img.ri:empty
+{
+  top: 60%;
+  left: 50%;
+  width:40%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 110%; width:40%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 90%;  width:40%;}
+}
+
+
+.forum-menu ul li a:link,
+.forum-menu ul li a:visited {
+  color: #000000;
+
+}
+.forum-menu ul li a:link #menu-item-20, .forum-menu ul li a:visited #menu-item-20 {
+  color: #ffffff;
+}
+
+
+@media all and (max-width: 1000px ){
+  .forum-menu ul li {
+    font-size: 15px;
+  }
+  .menu ul li:first-child a:link, .menu ul li:first-child a:visited {
+    margin-left: -32px;
+  }
+}
+
+@media all and (max-width: 769px ){
+
+  //nouveau design
+  .particulier-text{
+    top: calc(0% + 6vh) !important;
+    left: calc(100% - 125.16px) !important;
+    border-top: 17px solid #e94d69 !important;
+  }
+  .evenement-particulier{
+    letter-spacing: 1.9px !important;
+  }
+  .entreprise-text{
+  top:calc(100% - 69px) !important;
+    left: 0%!important;
+    background-color: #fff !important;
+    border-top: 17px solid #0098db !important;
+  }
+
+    .menu-header-menu-container{
+    margin-top: 8px;
+  }
+  #home-icon{
+    display: none !important;
+  }
+  .menu ul li:first-child a:link, .menu ul li:first-child a:visited {
+    color: #000 !important;
+  }
+  .language-widgets{
+    margin-top: 8px;
+  }
+  .forum-menu{
+    position: fixed;
+    left: 0%!important;
+    width: 100% !important;
+    font-size: 15px;
+    margin: 0 !important;
+    background-color:#fff !important;
+    height:6vh !important;
+    .menu {
+      display: inherit;
+      width: 100%;
+         }
+
+  }
+  #particulier-zone{
+    position: absolute;
+    width: 100vw !important;
+    height: 50vh !important;
+    top: 0 !important;
+    #particulier-zoom{
+      width: 100% !important;
+      height: 100% !important;
+      top: 0 !important;
+    }
+  }
+
+  #entreprise-zone{
+    position: absolute;
+    width: 100vw !important;
+    height: 50vh !important;
+    top: 50vh !important;
+    #entreprise-zoom{
+      width: 100% !important;
+      //height: 100% !important;
+      top: 0 !important;
+    }
+  }
+
+  img.ri:empty {
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  .entreprise-text,.particulier-text{
+    position: absolute;
+    top: 50%;
+    background-color: #fff !important;
+    display: inline-block;
+    left: calc(50% - 113px);
+  }
+  .entreprise-text{
+    border: solid 1px #0098db;
+  }
+  .particulier-text{
+    border: solid 1px #e94d69;
+  }
+  .evenement-particulier-hover{
+    position: relative;
+    height: 100%;
+    text-align: center;
+  }
+  .evenement-particulier,.subdomain-name-entreprise, .subdomain-name-particulier,.evenement-entreprise{
+    left : 0;
+    position: relative;
+    top : 0;
+    border-top:0px;
+  }
+  .subdomain-name-entreprise{
+    float: none;
+    letter-spacing: 0.7px !important;
+  }
+  .subdomain-name-entreprise, .subdomain-name-particulier{
+   font-size: 20px !important;
+    line-height: normal;
+  }
+  .evenement-particulier,.evenement-entreprise{
+    font-size: 10px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .text-container{
+    height: 100%;
+  }
+  .evenement-entreprise,.subdomain-name-entreprise{
+    color : #000;
+  }
+
+}
+
+
+@media all and (max-width: 769px) and (orientation: landscape){
+  .forum-menu {
+    height: 40px !important;
+  }
+  #particulier-zone, #entreprise-zone{
+    position: absolute;
+    width: 50vw!important;
+    height: 100vh!important;
+    top: 0!important;
+  }
+  #entreprise-zone{
+    left: 50% !important;
+  }
+
+  #entreprise-zone #entreprise-zoom {
+    height: 100%!important;
+
+  }
+  .particulier-text {
+    top: calc(0% + 40px) !important;
+    left: 0% !important;
+  }
+
+}
+
+
+@media all and (min-width: 769px) {
+  #particulier-zone{
+    position: absolute;
+    width: 50vw !important;
+    height: 100vh !important;
+    left: 0;
+    #particulier-zoom{
+      width: 100% !important;
+      height: 100% !important;
+      top: 0 !important;
+    }
+  }
+
+  #entreprise-zone{
+    position: absolute;
+    width: 50vw !important;
+    height: 100vh !important;
+    left: 50vw;
+    #entreprise-zoom{
+      width: 100% !important;
+      height: 100% !important;
+      top: 0 !important;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1370px) {
+  .evenement-particulier {
+    top: 88% !important;
+    left: 44% !important;
+    letter-spacing: 3.8px ;
+  }
+  .evenement-entreprise {
+    top: 87%;
+    left: 36%!important;
+    letter-spacing: 3.8px ;
+  }
+}
+
+@media only screen and (min-width: 1900px){
+  .evenement-particulier {
+    top: 86% !important;
+    left: 44% !important;
+    letter-spacing: 3.8px ;
+  }
+  .evenement-entreprise {
+    top: 85%;
+    left: 36%!important;
+    letter-spacing: 3.8px ;
+  }
+}

@@ -1,0 +1,430 @@
+body.contact {
+  .container{
+    max-width: 1085px;
+  }
+  main{
+    overflow: scroll !important;
+    overflow-x: hidden !important;
+  }
+  .vc_row{
+    max-width: 1120px;
+    margin:0 auto;
+    overflow: hidden;
+  }
+
+  .wpb_wrapper{
+    width:100%;
+    max-width: 1140px;
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  .displayflex{
+    display: flex;
+  }
+  .page-header {
+    padding-top: 52px;
+    padding-bottom: 32px;
+    border-bottom: 0px solid #eee;
+    max-width: 1140px;
+    margin: 0 auto !important;
+    float: none !important;
+  }
+
+  h1{
+    font-size: 26px;
+    color: #000000;
+    padding-top:30px;
+    font-family:"open_sanssemibold";
+    text-align: left;
+
+  }
+  .div-text-feader{
+    max-width: 1085px;
+    margin: 0 auto;
+  }
+  .cadre-map{
+    overflow: hidden; height: 300px;
+  }
+  font-family: 'Open Sans', sans-serif;
+
+  //contact 7 form
+
+  .wpcf7-form-control {
+    background-color: $contact-bg-color;
+    max-width: 100%;
+  }
+  .container-contact {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .wpcf7-textarea {
+    width: 100%;
+    height: 120px;
+    border: 0px;
+  }
+  .wpcf7-submit {
+    background-color: $contact-btn-color;
+    color: $contact-txt-color;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding:6px 16px;
+  }
+  .contact-label-message {
+    label {
+      font-family:"open_sanssemibold" ;
+      font-size: 11px;
+      width: 100%;
+    }
+  }
+  .wpcf7-form-control-wrap {
+
+    input {
+
+      border: 0px;
+      height: 38px;
+    }
+  }
+  //Respnsive Section
+
+  @media only screen and (min-width: 1200px) {
+
+    .wpcf7-form-control-wrap {
+
+      input {
+        min-width:135%;
+        border: 0px;
+        height: 38px;
+      }
+    }
+    .col-contact {
+      padding-left: 0px;
+      font-size: 11px;
+      font-weight: 600;
+      color:#919090;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-right: 0px;
+
+    }
+    .col-contact-padding-right{
+      padding-right: 0px;
+      padding-left: 10px;
+    }
+    .center-font-circle {
+
+      vertical-align: middle;
+      top: 12%;
+      left: 20%;
+      position: absolute;
+      line-height: 20px
+
+    }
+    .h5-contact {
+
+      line-height: 50px;
+      left: 8%;
+    }
+    .tel-contact {
+      //position: absolute;
+      left: 22%;
+      top: 15%;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .fax-contact {
+      font-weight: 600;
+      font-size: 20px;
+      position: absolute;
+      left: 22%;
+      top: 10%;
+    }
+    .fax-contact-tel{
+      font-weight: 600;
+      font-size: 20px;
+      top: 10%;
+      left: 40%;
+      position: absolute;
+    }
+    .ul-contact {
+
+      //position: absolute;
+      left: 25%;
+      top: 13%;
+      list-style: none;
+      font-weight: 600;
+      font-size: 20px;
+
+    }
+
+    .text-contact {
+      font-size: 17px;
+      color:#4e4e4e;
+    }
+    .adr-contact{
+      font-size:17px;
+      color: #000000;
+      font-weight: 600;
+    }
+    .adr-contact-text{
+      font-size: 15px;
+      font-weight: 600;
+      position: relative;
+      top: -25px;
+    }
+
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* For tablets: */
+    .ul-contact {
+
+     // position: absolute;
+      left: 27%;
+      top: 13%;
+      list-style: none;
+      font-weight: 600;
+      font-size: 19.1px;
+      font-family: "Open Sans";
+
+    }
+
+    .col-contact {
+      padding-left: 0px;
+      font-size: 13.9px;
+      font-weight: 600;
+      color:#919090;
+    }
+    .col-contact-padding-right{
+      padding-right: 20px;
+    }
+    .center-font-circle {
+
+      vertical-align: middle;
+      top: 10%;
+      left: 25%;
+      position: absolute;
+      line-height: 20px
+
+    }
+    .h5-contact {
+
+      line-height: 50px;
+      left: 8%;
+    }
+    .tel-contact {
+      //position: absolute;
+      left: 25%;
+      top: 15%;
+      font-weight: 600;
+      font-size: 21.2px;
+    }
+
+    .fax-contact {
+      font-weight: 600;
+      font-size: 21.2px;
+      position: absolute;
+      left: 25%;
+      top: 10%;
+    }
+    .fax-contact-tel{
+      font-weight: 600;
+      font-size: 19.1px;
+      top: 10%;
+      left: 43%;
+      position: absolute;
+    }
+
+
+    .text-contact {
+      font-size: 18px;
+      color:#4e4e4e;
+    }
+    .adr-contact{
+      font-size:21.2px;
+      color: #000000;
+      font-weight: 600;
+    }
+    .adr-contact-text{
+      font-size: 16.8px;
+      font-weight: 600;
+      position: relative;
+      top:-25px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .ul-contact {
+
+      //position: absolute;
+      //left: 0%;
+      //top: 0%;
+      list-style: none;
+      font-weight: 600;
+      font-size: 17.1px;
+      font-family: "Open Sans";
+
+    }
+
+    .col-contact {
+      padding-left: 0px;
+      font-size: 12.9px;
+      font-weight: 600;
+      color:#919090;
+    }
+    .col-contact-padding-right{
+      padding-right: 20px;
+    }
+    .center-font-circle {
+
+      vertical-align: middle;
+      top: 10%;
+      left: 35%;
+      position: absolute;
+      line-height: 20px
+
+    }
+    .h5-contact {
+
+      line-height: 50px;
+      left: 8%;
+    }
+    .tel-contact {
+      //position: absolute;
+      left: 35%;
+      top: 15%;
+      font-weight: 600;
+      font-size: 21.2px;
+    }
+
+    .fax-contact {
+      font-weight: 600;
+      font-size: 21.2px;
+      position: absolute;
+      left: 35%;
+      top: 10%;
+    }
+    .fax-contact-tel{
+      font-weight: 600;
+      font-size: 17.1px;
+      top: 80%;
+      left: 23%;
+      position: absolute;
+    }
+
+
+    .text-contact {
+      font-size: 2vw;
+      color:#4e4e4e;
+    }
+    .adr-contact{
+      font-size:21.2px;
+      color: #000000;
+      font-weight: 600;
+    }
+    .adr-contact-text{
+      font-size: 13.2px;
+      font-weight: 600;
+    }
+  }
+  @media only screen and (max-width: 768px){
+
+
+    /* For desktop: */
+    .ul-contact {
+
+      //position: absolute;
+      top: 15%;
+      left: 25%;
+      list-style: none;
+      font-weight: 600;
+      font-size: 20.1px;
+      font-family: "Open Sans";
+
+    }
+
+    .col-contact {
+      padding-left: 0px;
+      font-size: 12.9px;
+      font-weight: 600;
+      color:#919090;
+    }
+    .col-contact-padding-right{
+      padding-right: 20px;
+    }
+    .center-font-circle {
+
+      vertical-align: middle;
+      top: 10%;
+      left: 25%;
+      position: absolute;
+      line-height: 20px
+
+    }
+    .h5-contact {
+
+      line-height: 50px;
+      left: 8%;
+    }
+    .tel-contact {
+      //position: absolute;
+      left: 20%;
+      top: 15%;
+      font-weight: 600;
+      font-size: 21.2px;
+    }
+    .cadrage-fax{
+      position: relative;
+      top: 20px;
+    }
+    .fax-contact {
+      font-weight: 600;
+      font-size: 21.2px;
+      position: absolute;
+      left: 20%;
+      top: 10%;
+    }
+    .fax-contact-tel{
+      font-weight: 600;
+      font-size: 20.1px;
+      top: 15%;
+      left: 32%;
+      position: absolute;
+    }
+
+
+    .text-contact {
+      font-size: 3vw;
+      color:#4e4e4e;
+    }
+    .adr-contact{
+      font-size:21.2px;
+      color: #000000;
+      font-weight: 600;
+    }
+    .adr-contact-text{
+      font-size: 17.2px;
+      font-weight: 600;
+    }
+
+  }
+ /* @media only screen and (max-width: 680px) {
+    .footer-particulier {
+      font-family: open_sanssemibold;
+      font-size: 2vw;
+      color: #e5294d;
+      position: relative;
+      //left: 13%;
+      //top: -20px;
+    }
+
+    .footer-entreprise {
+      font-family: open_sanssemibold;
+      font-size: 2vw;
+      color: #0099d7;
+      position: relative;
+      //left: -40px;
+    }
+  }*/
+}
