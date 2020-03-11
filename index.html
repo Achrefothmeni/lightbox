@@ -14,8 +14,7 @@
   <script src="https://connect.facebook.net/signals/config/2269727679722390?v=2.9.15&amp;r=stable" async=""></script>
   <script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.9.15" async=""></script>
   <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
-  <script type="text/javascript" async="" defer="" src="https://analytics.digit-dev.com/piwik.js">
-  </script>
+  <script type="text/javascript" async="" defer="" src="https://analytics.digit-dev.com/piwik.js"></script>
   <title>Light Box </title>
 
 <!-- All in One SEO Pack 2.3.11 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
@@ -23,6 +22,7 @@
 
 <!-- /all in one seo pack -->
 <script src="js/wp-emoji-release.min.js" type="text/javascript"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
 
 <link rel="stylesheet" id="bootstrap-css" href="styles/bootstrap.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="sage/css-css" href="styles/main.css" type="text/css" media="all">
@@ -399,16 +399,15 @@ transition: 1s ease opacity;
 
     </div>
 
-    <a href="lighbox/photography.html" id="particulier-zone">
+    <a href="lighbox/photography.html" id="particulier-zone" >
     <div class="image-particuliers" id="particulier-zoom">
 
-            <div class="text-container">
+            <div class="text-container" >
                 <div class="evenement-particulier-hover">
-                    <div class="particulier-text">
-
-                            <div class="subdomain-name-particulier">
-                                <div class="decouvrez">
-                                  DÉCOUVRIR                                </div>
+                    <div class="particulier-text" style="margin-left: -80px;">
+                            <div class="subdomain-name-particulier" style="margin-left: -80px;">
+                                <div class="decouvrez-entreprise" style=" text-align: center; ">
+                                  LIGHTBOX                                </div>
 
                                 PHOTOGRAPHY                            </div>
                        
@@ -429,9 +428,9 @@ transition: 1s ease opacity;
             <div class="evenement-particulier-hover">
                 <div class="entreprise-text">
 
-                    <div class="subdomain-name-entreprise">
-                        <div class="decouvrez-entreprise">
-                          DÉCOUVRIR                       </div>
+                    <div class="subdomain-name-entreprise" >
+                        <div class="decouvrez-entreprise" style="justify-content: center; text-align: center;">
+                          LIGHTBOX                       </div>
 
                         PRODUCTION                   </div>
         
@@ -444,7 +443,7 @@ transition: 1s ease opacity;
 
 
     <div >
-        <img class="ri" src="images/logo.png" style="width: 200px; margin-top: -50px;">
+        <img class="ri" id="logo_center" src="images/logo_gris.png" style="max-width: 400; margin-top: -100px;">
     </div>
 
 </div>
@@ -456,4 +455,13 @@ transition: 1s ease opacity;
     </div><!-- /.wrap -->
       
 
+    <script>
+      $(".image-entreprises").hover(function(){
+      $("#logo_center").attr("src","images/prod.png");
+      });
+      $(".image-particuliers").hover(function(){
+      $("#logo_center").attr("src","images/logo.png");
+      });
+
+    </script>
 </body></html>

@@ -358,13 +358,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 #hero .hero-container{
   padding: 40px 0!important;
-  
+  height: calc(100vh - 114px);
   padding-left: 15px!important;
   padding-right: 15px!important;
 }
 #hero .carousel-item {
   width: 100%;
   height: calc(100vh - 114px);
+  object-fit: cover;
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
