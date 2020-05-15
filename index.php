@@ -44,6 +44,18 @@
 -->
 <style>
 
+@media screen and (max-width: 768px) {
+    #logo_center {
+     top:65%
+     }
+     .entreprise-text{
+        margin-top:-50px
+     }
+     .particulier-text{
+        margin-top:30px
+     }
+} 
+
 button#responsive-menu-button, #responsive-menu-container {
     display: none;
     -webkit-text-size-adjust: 100%; }
@@ -407,8 +419,8 @@ transition: 1s ease opacity;
 
             <div class="text-container" >
                 <div class="evenement-particulier-hover">
-                    <div class="particulier-text" style="margin-left: -80px;">
-                            <div class="subdomain-name-particulier" style="margin-left: -80px; font-family: 'Cairo', sans-serif;" >
+                    <div class="particulier-text" >
+                            <div class="subdomain-name-particulier" style=" font-family: 'Cairo', sans-serif;" >
                                 <div class="decouvrez-entreprise" style=" text-align: center; font-family: 'Cairo', sans-serif;">
                                   LIGHTBOX                                </div>
 
@@ -432,7 +444,7 @@ transition: 1s ease opacity;
                 <div class="entreprise-text">
 
                     <div class="subdomain-name-entreprise" style="font-family: 'Cairo', sans-serif;">
-                        <div class="decouvrez-entreprise" style="justify-content: center; text-align: center; font-family: 'Cairo', sans-serif;"">
+                        <div class="decouvrez-entreprise" style="font-family: 'Cairo', sans-serif;"">
                           LIGHTBOX                       </div>
 
                         PRODUCTION                   </div>
