@@ -51,9 +51,7 @@
      .entreprise-text{
         margin-top:-50px
      }
-     .particulier-text{
-        margin-top:30px
-     }
+     
 } 
 
 button#responsive-menu-button, #responsive-menu-container {
@@ -366,18 +364,7 @@ button#responsive-menu-button, #responsive-menu-container {
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
   <body data-rsssl="1" class="home blog wpb-js-composer js-comp-ver-5.0.1 vc_responsive responsive-menu-slide-left">
 
-<div class="main-homepage">
-   
-    <div class="forum-menu">
-        <div class="menu">
-            <!--<img id="home-icon" src="https://www.forum.com.tn/wp-content/themes/leforum/dist/images/main/ic_home_leforum.png">-->
-           <div class="centered menu">
 
-              <!-- <div class="menu-header-menu-container"><ul id="menu-header-menu" class="menu"><li id="menu-item-20" class="menu-item-first menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://www.forum.com.tn/reservation/?lang=En">RESERVATION</a></li>
-<li id="menu-item-19" class="menu-item-last menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://www.forum.com.tn/contact/?lang=En">CONTACT</a></li>
-</ul></div>   -->        </div>
-
-            <div class="language-widgets">
 
                 <style type="text/css">
 .qtranxs_widget ul { margin: 0; }
@@ -409,10 +396,7 @@ transition: 1s ease opacity;
   &amp;lang=En" title="English (En)">En</a></li>
 </ul><div class="qtranxs_widget_end"></div>
 </li>-->
-            </div>
-        </div>
-
-    </div>
+            
 
     <a href="lighbox/photography.html" id="particulier-zone" >
     <div class="image-particuliers" id="particulier-zoom">
@@ -465,10 +449,6 @@ transition: 1s ease opacity;
 
 
 
-        </main><!-- /.main -->
-              </div><!-- /.content -->
-    </div><!-- /.wrap -->
-      
 
     <script>
       $(".image-entreprises").hover(function(){
