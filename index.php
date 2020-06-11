@@ -25,8 +25,8 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 
 <link rel="stylesheet" id="bootstrap-css" href="styles/bootstrap.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="sage/css-css" href="styles/main.css" type="text/css" media="all">
-<link rel="stylesheet" id="sage/css-css" href="main.css" type="text/css" media="all">
+<link rel="stylesheet" id="sage/css-css" href="styles/mainv2.css" type="text/css" media="all">
+<link rel="stylesheet" id="sage/css-css" href="mainv2.css" type="text/css" media="all">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
 
 <script type="text/javascript" defer="defer" src="js/jquery/jquery.js"></script>
